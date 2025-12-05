@@ -8,6 +8,7 @@ format:
         slide-level: 3
         navigation-mode: vertical
         controls-layout: bottom-right
+        code-line-numbers: false
 ---
 # Introduction
 
@@ -33,6 +34,50 @@ format:
 ## Stimulus presentation software
 - Takes care of point 0 and 3 of the slide above, that is, to present something to the user, such as a video, a sound, an image etc. 
 - There are gazillion of tools developed for this purpose. Free (as in beer and as in liberty), non-free (as in beer and in liberty), based on Matlab or Python, standalone or as extensions etc. etc.
+
+# Software installation
+
+## Create your environment
+- Download the latest version of Python from [https://www.python.org/downloads/](https://www.python.org/downloads/)
+- Install it by making sure that `Add to PATH` is checked
+- Create an isolated environment with the commands:
+```ps
+cd Documents                                # Moves into Documents
+mkdir bci-project                           # Creates the project folder
+cd bci-project                              # Moves into the project folder
+python -m venv env                          # Creates an isolated python environment
+pip install matplotlib PySide6 \            # Installs the necessary libraries
+mne mne-qt-browser scikit-learn jupyterlab
+```
+### The libraries
+1. Matplotlib - Plotting 
+2. MNE - The basic lib for neural data analysis
+3. mne-qt-browser - A nicer plotter to review your data
+4. PySide6 - Dependency for interactive plots
+5. scikit-learn - Machine learning library
+6. jupyterlab - The development environment
+
+
+# Machine Learning
+We have at hand a classification problem; given the EEG signals, with which hand was the move executed (imagined)?
+
+We will some of our trial data to train the model, and some to test its performance.
+
+## The train-validation-test split
+ - Assume 100 instances balanced for two classes. 
+ - We will use a train-test split of 80-20. 20 instances are kept aside and the model only 'sees' them in its final performance evaluation.
+ - The other 80 are used to train the model.
+
+### An example
+
+## CSP
+```{python}
+#| echo: true
+
+import numpy as np
+a = np.arange(15).reshape(3, 5)
+a
+```
 
 ### Psychopy
 - 

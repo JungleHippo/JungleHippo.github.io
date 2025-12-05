@@ -1,6 +1,9 @@
 project:
   type: website
 
+editor:
+  render-on-save: true
+
 website:
   title: "JungleHippo.github.io"
   navbar:
