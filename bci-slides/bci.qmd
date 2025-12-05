@@ -1,0 +1,38 @@
+---
+title: "WIP: EEG Brain Computer Interfaces"
+author: "John Doe"
+format: 
+    revealjs:
+        theme: moon
+        center-title-slide: True
+        slide-level: 3
+        navigation-mode: vertical
+        controls-layout: bottom-right
+---
+# Introduction
+
+
+
+- In these slides, we will present the ***non-invasive, active, EEG*** BCIs
+- Of course, other types of brain-computer interfaces will be presented in order to provide a full picture of what is happening around.
+
+### Tst 
+
+## Invasive vs non-invasive
+
+- Get in bed
+- Count sheep
+
+# Software
+- The BCI functionality consists of the following:
+    0. Present a prompt to the user--Optional, for synchronous BCIs
+    1. Capture the brain's electrical activity
+    2. Decode it (left or right, feet or hands, wrist flexion or extension etc.)
+    3. Present the feedback to the user (what did the system understand, and does it agree with the user's intention?)
+
+## Stimulus presentation software
+- Takes care of point 0 and 3 of the slide above, that is, to present something to the user, such as a video, a sound, an image etc. 
+- There are gazillion of tools developed for this purpose. Free (as in beer and as in liberty), non-free (as in beer and in liberty), based on Matlab or Python, standalone or as extensions etc. etc.
+
+### Psychopy
+- 
