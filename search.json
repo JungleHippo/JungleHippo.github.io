@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "JungleHippo.github.io",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "bci-slides/bci.html#invasive-vs-non-invasive",
+    "href": "bci-slides/bci.html#invasive-vs-non-invasive",
+    "title": "WIP: EEG Brain Computer Interfaces",
+    "section": "Invasive vs non-invasive",
+    "text": "Invasive vs non-invasive\n\nGet in bed\nCount sheep"
+  },
+  {
+    "objectID": "bci-slides/bci.html#stimulus-presentation-software",
+    "href": "bci-slides/bci.html#stimulus-presentation-software",
+    "title": "WIP: EEG Brain Computer Interfaces",
+    "section": "Stimulus presentation software",
+    "text": "Stimulus presentation software\n\nTakes care of point 0 and 3 of the slide above, that is, to present something to the user, such as a video, a sound, an image etc.\nThere are gazillion of tools developed for this purpose. Free (as in beer and as in liberty), non-free (as in beer and in liberty), based on Matlab or Python, standalone or as extensions etc. etc."
+  },
+  {
+    "objectID": "bci-slides/bci.html#psychopy",
+    "href": "bci-slides/bci.html#psychopy",
+    "title": "WIP: EEG Brain Computer Interfaces",
+    "section": "### Psychopy",
+    "text": "### Psychopy"
+  }
+]
