@@ -28,6 +28,27 @@
     "text": "Stimulus presentation software\n\nTakes care of point 0 and 3 of the slide above, that is, to present something to the user, such as a video, a sound, an image etc.\nThere are gazillion of tools developed for this purpose. Free (as in beer and as in liberty), non-free (as in beer and in liberty), based on Matlab or Python, standalone or as extensions etc. etc."
   },
   {
+    "objectID": "bci-slides/bci.html#create-your-environment",
+    "href": "bci-slides/bci.html#create-your-environment",
+    "title": "WIP: EEG Brain Computer Interfaces",
+    "section": "Create your environment",
+    "text": "Create your environment\n\nDownload the latest version of Python from https://www.python.org/downloads/\nInstall it by making sure that Add to PATH is checked\nCreate an isolated environment with the commands:\n\ncd Documents                                # Moves into Documents\nmkdir bci-project                           # Creates the project folder\ncd bci-project                              # Moves into the project folder\npython -m venv env                          # Creates an isolated python environment\npip install matplotlib PySide6 \\            # Installs the necessary libraries\nmne mne-qt-browser scikit-learn jupyterlab"
+  },
+  {
+    "objectID": "bci-slides/bci.html#the-train-validation-test-split",
+    "href": "bci-slides/bci.html#the-train-validation-test-split",
+    "title": "WIP: EEG Brain Computer Interfaces",
+    "section": "The train-validation-test split",
+    "text": "The train-validation-test split\n\nAssume 100 instances balanced for two classes.\nWe will use a train-test split of 80-20. 20 instances are kept aside and the model only ‘sees’ them in its final performance evaluation.\nThe other 80 are used to train the model."
+  },
+  {
+    "objectID": "bci-slides/bci.html#csp",
+    "href": "bci-slides/bci.html#csp",
+    "title": "WIP: EEG Brain Computer Interfaces",
+    "section": "CSP",
+    "text": "CSP\n\nimport numpy as np\na = np.arange(15).reshape(3, 5)\na\n\narray([[ 0,  1,  2,  3,  4],\n       [ 5,  6,  7,  8,  9],\n       [10, 11, 12, 13, 14]])"
+  },
+  {
     "objectID": "bci-slides/bci.html#psychopy",
     "href": "bci-slides/bci.html#psychopy",
     "title": "WIP: EEG Brain Computer Interfaces",
